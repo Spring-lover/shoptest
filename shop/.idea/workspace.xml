@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9758a191-667e-46bb-a304-d52982ecf026" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Coding\java\Maven-repository" />
+        <option name="mavenHome" value="C:/Program Files/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\Program Files\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="11" />
+  </component>
+  <component name="ProjectId" id="1OdjDgVm9guneKultqUX4p182Y5" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leetcode" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15234375" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ideaProject\shoptest\src" />
+      <recent name="C:\ideaProject\shoptest" />
+      <recent name="C:\ideaProject\shoptest\resources" />
+      <recent name="C:\ideaProject\shoptest\src\main\webapp\img" />
+      <recent name="C:\ideaProject\shoptest\src\main\webapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ideaProject\shoptest\src\main\shop\web\Filter" />
+      <recent name="C:\ideaProject\shoptest\src" />
+      <recent name="C:\ideaProject\shoptest\src\main\webapp" />
+      <recent name="C:\ideaProject\shoptest\src\main\webapp\js" />
+      <recent name="C:\ideaProject\shoptest\src\main\webapp\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/shoptest/index.jsp" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="shoptest:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/shoptest" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_shoptest" />
+        <option name="HTTP_PORT" value="80" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60301" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shoptest:war" />
+          <artifact name="shoptest:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/shoptest/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="shoptest:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/shoptest" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_shoptest" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60301" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shoptest:war exploded" />
+          <artifact name="shoptest:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9758a191-667e-46bb-a304-d52982ecf026" name="Default Changelist" comment="" />
+      <created>1562248714900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562248714900</updated>
+      <workItem from="1562248716602" duration="1041000" />
+      <workItem from="1562250198161" duration="4926000" />
+      <workItem from="1562255161369" duration="5230000" />
+      <workItem from="1562289430180" duration="34543000" />
+      <workItem from="1562336385651" duration="3071000" />
+      <workItem from="1562372220530" duration="5965000" />
+      <workItem from="1562378282367" duration="20899000" />
+      <workItem from="1562420982365" duration="66000" />
+      <workItem from="1562422417496" duration="6402000" />
+      <workItem from="1562429056076" duration="667000" />
+      <workItem from="1562458398245" duration="2395000" />
+      <workItem from="1562460825319" duration="6806000" />
+      <workItem from="1562469287500" duration="3667000" />
+      <workItem from="1562488976572" duration="2106000" />
+      <workItem from="1562507539795" duration="212000" />
+      <workItem from="1562508451856" duration="67000" />
+      <workItem from="1562508990075" duration="46000" />
+      <workItem from="1562552733427" duration="200000" />
+      <workItem from="1562552958383" duration="128000" />
+      <workItem from="1562568505020" duration="3106000" />
+      <workItem from="1562658143219" duration="324000" />
+      <workItem from="1562659149060" duration="330000" />
+      <workItem from="1562660535208" duration="1226000" />
+      <workItem from="1562667027528" duration="93000" />
+      <workItem from="1562667372648" duration="1503000" />
+      <workItem from="1562669235519" duration="223000" />
+      <workItem from="1562669586009" duration="94000" />
+      <workItem from="1562669741690" duration="154000" />
+      <workItem from="1562669976466" duration="573000" />
+      <workItem from="1562670576703" duration="229000" />
+      <workItem from="1562670848457" duration="252000" />
+      <workItem from="1562671719142" duration="156000" />
+      <workItem from="1562672554229" duration="558000" />
+      <workItem from="1562673165291" duration="2416000" />
+      <workItem from="1562675979456" duration="715000" />
+      <workItem from="1562676754531" duration="192000" />
+      <workItem from="1562677489938" duration="68000" />
+      <workItem from="1562678694578" duration="567000" />
+      <workItem from="1562722322164" duration="1688000" />
+      <workItem from="1562725884282" duration="725000" />
+      <workItem from="1562748150633" duration="5363000" />
+      <workItem from="1562758778702" duration="770000" />
+      <workItem from="1562759676343" duration="3605000" />
+      <workItem from="1562814531227" duration="1808000" />
+      <workItem from="1562824302612" duration="1037000" />
+      <workItem from="1562897683266" duration="618000" />
+      <workItem from="1562899242425" duration="974000" />
+      <workItem from="1562911943760" duration="13000" />
+      <workItem from="1562913585824" duration="199000" />
+      <workItem from="1562914540366" duration="1523000" />
+      <workItem from="1562929553480" duration="42000" />
+      <workItem from="1562930629521" duration="22000" />
+      <workItem from="1562935841432" duration="2733000" />
+      <workItem from="1562938594708" duration="367000" />
+      <workItem from="1562940022718" duration="671000" />
+      <workItem from="1562940779342" duration="15000" />
+      <workItem from="1562942224025" duration="14000" />
+      <workItem from="1562945405638" duration="871000" />
+      <workItem from="1562946299957" duration="46000" />
+      <workItem from="1562946741115" duration="1763000" />
+      <workItem from="1562980492798" duration="76000" />
+      <workItem from="1562982995877" duration="1359000" />
+      <workItem from="1562987888915" duration="134000" />
+      <workItem from="1563105511622" duration="1495000" />
+      <workItem from="1563160340622" duration="6000" />
+      <workItem from="1563170414831" duration="13000" />
+      <workItem from="1563355602467" duration="533000" />
+      <workItem from="1563361629723" duration="458000" />
+      <workItem from="1563370169536" duration="10000" />
+      <workItem from="1563409896898" duration="65000" />
+      <workItem from="1563414334105" duration="1207000" />
+      <workItem from="1563428557382" duration="1604000" />
+      <workItem from="1563434783201" duration="39000" />
+      <workItem from="1563434997332" duration="236000" />
+      <workItem from="1563436758614" duration="681000" />
+      <workItem from="1563518018228" duration="627000" />
+      <workItem from="1563529004573" duration="67000" />
+      <workItem from="1563535563760" duration="220000" />
+      <workItem from="1563543998847" duration="770000" />
+      <workItem from="1563545103358" duration="282000" />
+      <workItem from="1563585068072" duration="779000" />
+      <workItem from="1563586081999" duration="82000" />
+      <workItem from="1563588507873" duration="16000" />
+      <workItem from="1563590868157" duration="26000" />
+      <workItem from="1563590945842" duration="2828000" />
+      <workItem from="1563603392605" duration="607000" />
+      <workItem from="1563616838646" duration="611000" />
+      <workItem from="1563626190194" duration="3283000" />
+      <workItem from="1563690264183" duration="16000" />
+      <workItem from="1563973483564" duration="197000" />
+      <workItem from="1564162631959" duration="598000" />
+      <workItem from="1564304515492" duration="698000" />
+      <workItem from="1564313462513" duration="104000" />
+      <workItem from="1564314262692" duration="411000" />
+      <workItem from="1564318403735" duration="18000" />
+      <workItem from="1564363742698" duration="121000" />
+      <workItem from="1564673143531" duration="83000" />
+      <workItem from="1566643935353" duration="278000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>shoptest:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (shoptest)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|shoptest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.1.17</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
