@@ -1,30 +1,17 @@
-系统实现关键技术列举出了在系统开发中主要使用的技术手段，在本项目的设计中，项目的开发环境为IntelliJ IDEA，开发语言为Java，数据库为Mysql和Redis，项目将分为前端管理部分和后端管理部分，前端将使用Bootstrap搭建界面，并且使用Thymeleaf进行前后端数据的传输，评论界面采用开源的Editor.md https://pandao.github.io/editor.md/，使用Python爬虫对京东商场的商品图片进行获取并保存在Mysql数据库中，使用Ufile实现图片文件的云保存，后端采用Spring-Boot框架进行开发，使用Servlet完成登录验证码的生成，整体项目最后部署为一个Jar包。
-2.1.	Spring-Boot框架
-说明Spring-Boot框架之前，先介绍SSM（Spring+SpringMVC+Mybatis）框架。
-	Spring是一个开源的框架，是为了解决企业级应用开发的复杂性而创建的，使用Spring可以让JavaBean实现之前只有EJB才能完成的事情，但是Spring不仅仅局限于服务端开发，任何Java应用都能在简单性，可测试性和松耦合性等方面从Spring中获益。
-	SpringMVC属于SpringFrameWork的后续产品，已经融合在Spring Web Flow里面，SpingMVC分离了控制器、模型对象、分派器以及处理程序对象的角色，这种分离让它们更容易进行定制。
-	Mybatis本是apache的一个开源项目iBatis，是一个基于Java的持久层框架，包括SQL Map和Data Access Object(DAO) Mybatis消除了几乎所有JDBC代码和参数的手工设置以及结果集的检索，本项目由一开始的Spring Template重构使用Mybatis进行项目持久层的开发。
-Spring-Boot是所有基于Spring开发的项目的起点，Spring-Boot的设计是为了让尽可能快的跑起来Spring应用程序并且尽可能减少你的配置文件。它默认配置了很多框架的使用方式，就像Maven整合了所有的Jar包，Spring-Boot整合了所有的框架。
-1.	使编码变得简单，Spring-Boot采用JavaConfig的方式，对Spring进行配置，并且提供了大量的注解，极大地提高了工作效率；
-2.	使配置变得简单如图2-1，Spring-Boot提供许多默认配置，当然也提供了自定义的配置，但是所有的项目都只有一个配置文件：application.yml；
-3.	部署变得简单，Spring-Boot内置三种Servlet容器，Tomcat，Jetty，undertow，需要一个Java的运行环境就可以跑Spring-Boot项目了，Spring-Boot项目可以打包乘一个Jar包，本项目就使利用此方法进行项目的部署；
-4.	使监控变得简单，Spring-Boot提供actuator包，可以使用它来对应用进行监控。
- 
-图2-1 配置方便
-2.2.	Redis数据库
-Redis是一个开源的使用ANSI C语言编写，支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。Redis又是一种非关系型数据库，为了解决高并发、高可用、高可扩展、大数据存储等一系列问题而产生的数据库的解决方案，Redis支持很多特性，例如将内存中的数据持久化硬盘中，使用复制来扩展读性能，使用分片来扩展写性能。本项目利用Redis数据库来实现缓存机制，让界面中的nav和标签tag存入内存中，以增加渲染页面的速度，提高用户方使用体验。
-2.3.	Maven仓库
-Maven仓库除了以程序构建能力为特色之外，还提供高级项目管理工具。由于Maven的缺省构建规则有较高的可重用性，所以常常用两三行Maven构建脚本就可以构建简单的项目。由于Maven的面向项目的方法，许多Apache Jakarta项目发文时使用Maven，而且公司项目采用Maven的比例在持续增长。本项目开发期间均使用Maven进行对项目Jar的管理。
-2.4.	Thymeleaf模板引擎
-Thymeleaf使一款用于渲染XML/XHTML/HTML5内容的模板引擎。类似JSP, Velocity, FreeMaker等，它可以轻易的与Spring-Boot等Web框架进行集成作用Web应用的模板引擎，同时它也是Spring官方手册中指定的前后端进行数据交互的方法。与其它模板引擎相比，Thymeleaf最大的特点是能够直接在浏览器中打开并正确地显示模板页面，而不需要启动整个Web应用，由于本项目是“全栈开发”，没有使用如今比较流行的前后端分离的开发方式，而是使用整合模板引擎完成，后期如果需要进行项目的重构会将项目分离。
-2.5.	Bootstrap模板
-本项目的前端界面全部使用Bootstrap框架进行整合。Bootstrap是美国Twitter公司设计师Mark Otto和Jacob Thornton合作基于HTML、CSS、JavaScript开发的简洁、直观、强悍的前端开发框架，使得Web开发更加快捷。其包含了丰富的Web组件，根据这些组件，可以快速的搭建一个漂亮、功能完备的网站，其中包括以下组件：下来菜单、按钮组、导航栏等等，可以对Bootstrap中所有的CSS变量进行修改，依据自己的需求裁剪代码。
-2.6.	Ufile文件云储存
-本项目初期后端管理阶段对于图片文件的上传是基于本机文件的绝对路径进行存储，这样的缺点是当存储文件图片逐渐增大的时候，会使存储空间逐渐变大，用户方进行搜索的时候会增加不必要的开销。于是在项目后期进行项目的修改，将图片文件的存储保存在云存储空间上，既减小了存储空间的负担又增加了搜索的速度。
-2.7.	Mybatis数据库
-Mybatis是支持普通SQL查询，存储过程和高级映射的优秀持久层框架。Mybatis消除了几乎所有的JDBC的代码和参数的手工设置以及结果集的检索。Mybatis最强大的特性之一就是它的动态语句功能，可以使用简单的XML或注解来配置和映射原生信息，将接口和Java的POJOs映射为数据库中的记录。
-项目初期使用SpringTemplate以及手写了一个DataSource的Util类进行开发，对于持久层的操作还是依然使用DAO和Service层的交互，让项目的耦合度比较高，项目后期使用Mybatis对项目进行重构。使得项目符合软件工程开发的思想从而进行解耦合。本项目均使用注解进行开发。
-2.8.	Druid连接池
-建立数据库连接耗时耗费资源，一个数据库服务器能够同时建立的连接数也是有限的，在大型的Web应用中，可能同时会有成百上千的访问数据库的请求，如果Web应用程序为每一个客户请求分配一个数据库连接，将导致性能的急剧下降。
-数据库连接池的意义在于，能够重复利用数据库连接（有点类似线程池的部分意义），提高对请求的响应时间和服务器的性能。连接池中提前预先建立了多个数据库连接对象，然后将连接对象保存到连接池中，当客户请求到来时，直接从池中取出一个连接对象为客户服务，当请求完成之后，客户程序调用close()方法，将连接对象放回池中。
-Druid为阿里巴巴的数据源，集合了c3p0、dbcp、proxool等连接池的优点，还加入了日志监控，有效的监控DB池连接和SQL的执行情况。
+列举出了在系统开发中主要使用的技术手段，在本项目的设计中，项目的开发环境为IntelliJ IDEA，开发语言为Java，数据库为Mysql和Redis，项目将分为前端管理部分和后端管理部分，前端将使用Bootstrap搭建界面，并且使用Thymeleaf进行前后端数据的传输，评论界面采用开源的Editor.md https://pandao.github.io/editor.md/，使用Python爬虫对京东商场的商品图片进行获取并保存在Mysql数据库中，使用Ufile实现图片文件的云保存，后端采用Spring-Boot框架进行开发，使用Servlet完成登录验证码的生成，整体项目最后部署为一个Jar包。
+
+## 2.1.	Spring-Boot框架
+
+## 2.2.	Redis数据库
+
+## 2.3.	Maven仓库
+
+## 2.4.	Thymeleaf模板引擎
+
+## 2.5.	Bootstrap模板
+
+## 2.6.	Ufile文件云储存
+
+## 2.7.	Mybatis数据库
+
+## 2.8.	Druid连接池
